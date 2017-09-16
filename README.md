@@ -2,13 +2,10 @@
 just testing my jenkins server
 I commit and push and jenkin will do the tests
 
-## installation
+## copy these lines in shell excecute section during build in jerkins config
 ```
 npm install
-npm app.js
-mocha
+./node_modules/.bin/pm2 start app.js
+./node_modules/mocha/bin/mocha
 
 ```
-### note
-it uses mocha to test the server is up
-it is connected to githssbbsdddppppppppp
