@@ -9,3 +9,5 @@ npm install
 ./node_modules/mocha/bin/mocha
 
 ```
+
+and you can deploy after build
