@@ -9,3 +9,5 @@ npm app.js
 mocha
 
 ```
+### note
+it uses mocha to test the server is up
