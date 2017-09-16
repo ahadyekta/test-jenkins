@@ -11,4 +11,4 @@ mocha
 ```
 ### note
 it uses mocha to test the server is up
-it is connected to github
+it is connected to githssbbs
