@@ -27,7 +27,7 @@ node {
         stage('Stop Server') {
            
                 sh "echo 'Stopping old process to run new process...'"
-                sh './node_modules/.bin/pm2 stop app.js'
+                sh './node_modules/.bin/pm2 stop all'
             
             
         }
