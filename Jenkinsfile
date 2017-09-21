@@ -1,4 +1,5 @@
-node('node') {
+pipeline {
+    agent any
     stage('Initialize'){
         echo 'Initializing...'
         def node = tool name: 'node-8', type: 'jenkins.plugins.nodejs.tools.NodeJSInstallation'
