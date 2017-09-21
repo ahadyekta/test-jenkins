@@ -21,7 +21,7 @@ node {
            
                 sh "echo 'Building dependencies...'"
                 sh 'npm i'
-            }
+            
         }
 
         stage('Stop Server') {
@@ -45,6 +45,5 @@ node {
                 sh './node_modules/mocha/bin/mocha'
             
         }
-    
     
 }
